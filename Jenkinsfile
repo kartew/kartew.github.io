@@ -6,7 +6,6 @@ pipeline {
         stage("build") {
             steps {
                 echo 'building the applicatoin.................................................................'
-                echo "${CHANGE_URL}"
                 echo "${GIT_URL}"
             }
         }
