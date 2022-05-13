@@ -6,9 +6,9 @@ pipeline {
         stage("build") {
             steps {
                 echo 'building the applicatoin.................................................................'
-                echo ${BRANCH_NAME}
-                echo ${CHANGE_URL}
-                echo ${GIT_URL}
+                echo "${BRANCH_NAME}"
+                echo "${CHANGE_URL}"
+                echo "${GIT_URL}"
             }
         }
         stage("test") {
